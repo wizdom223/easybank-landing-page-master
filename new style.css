@@ -1,0 +1,30 @@
+*{
+    font-size: 10px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+nav{
+    display: flex;
+    flex-basis: 60%;
+    justify-content: space-between;
+}
+.nav-menu{
+    display: flex;
+    flex-basis: 70%;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.nav-btn{
+    border: none;
+    border-radius: 50px;
+    padding: 10px 25px;
+    background: linear-gradient(to right,hsl(136, 65%, 51%), hsl(192, 70%,51%));
+    color: ;
+}
